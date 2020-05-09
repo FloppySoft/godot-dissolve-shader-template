@@ -15,7 +15,9 @@ Shader template for Godot Engine, implemented as visual shaders.
 * Click on ![shader material button](media/button_shaderMaterial.jpg) to access the shaderMaterial
 * Open the visualShader by clicking ![visualShader button](media/button_visualShader.jpg)
 
-## Principle of function
+## Shader Details
+
+![description.jpg](/media/description.jpg)
 
 * A scalar is multiplied with the uv coordinates to achieve scaling the dissolve effect, e.g. in the ```dissolve large``` example
 * Another scalar is multiplied with the step threshold to make the emission texture a little larger than the alpha texture. This creates the green glowing border effect
